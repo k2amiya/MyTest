@@ -12,7 +12,7 @@ class ViewController: UIViewController {
     let name = "Ueno"
     
     @IBAction func tapHandler(_ sender: Any) {
-        myTextField.text = "変更しました！ \(name)"
+        myTextField.text = "変更しました！"
     }
     
     @IBOutlet weak var myTextField: UITextField!
